@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+
+body {
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digital-clock {
+    position: relative;
+    background: #000000;
+    box-shadow: 0 5px 25px rgba(14, 21, 37, 0.8);
+    color: white;
+    width: 800px;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digital-clock:before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg, #24ff6d, #2f93f1, #ff5e9a);
+    background-size: 200% 200%;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    z-index: -1;
+    filter: blur(40px);
+    animation: glowing 10s ease infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.time {
+    font-size: 6.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+/* media queries */
+
+  @media screen and (max-width: 940px) {
+    .digital-clock {
+      width: 650px;
+    }
+  
+    .time {
+      font-size: 5rem;
+    }
+  }
+  
+  @media screen and (max-width:800px) {
+    .digital-clock {
+      width: 550px;
+    }
+  
+    .time {
+      font-size: 4rem;
+    }
+  }
+  
+  @media screen and (max-width:650px) {
+    .digital-clock {
+      width: 450px;
+    }
+  
+    .time {
+      font-size: 3rem;
+    }
+  }
+  
+  @media screen and (max-width:520px) {
+    .digital-clock {
+      width: 350px;
+    }
+  
+    .time {
+      font-size: 2rem;
+    }
+  }
+  
+  @media screen and (max-width:390px) {
+    .digital-clock {
+      width: 250px;
+    }
+  
+    .time {
+      font-size: 1rem;
+    }
+  }
