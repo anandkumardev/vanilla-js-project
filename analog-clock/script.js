@@ -2,10 +2,10 @@ const body = document.querySelector("body");
 const hour = document.querySelector('.hour');
 const minute = document.querySelector('.minute');
 const second = document.querySelector('.second');
-const modeSwith = document.querySelector('.mode-switch');
+const modeSwitch = document.querySelector('.mode-switch');
 
 //add a click event listener to the mode switch
-modeSwith.addEventListener('click', () => {
+modeSwitch.addEventListener('click', () => {
   //toggle the "dark" class on the body element
   body.classList.toggle('dark');
 
@@ -13,7 +13,7 @@ modeSwith.addEventListener('click', () => {
   const isDarkMode = body.classList.contains('dark');
 
   //set mode switch text based on the current mode
-  modeSwith.textContent = isDarkMode ? 'Light Mode' : 'Dark Mode';
+  modeSwitch.textContent = isDarkMode ? 'Light Mode' : 'Dark Mode';
 
   //set localStorage "mode" based on the current mode
   localStorage.setItem("mode", isDarkMode ? 'Dark Mode' : 'Light Mode')
