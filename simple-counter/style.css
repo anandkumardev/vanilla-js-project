@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    height: 100vh;
+    background:  black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-card {
+    width: 300px;
+    height: 420px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-shadow: rgba(243, 244, 245, 0.434) 0px 1px 2px 0px, rgba(254, 255, 255, 0.15) 0px 2px 6px 2px;
+}
+
+.counter {
+    font-size: 5rem;
+    color: #404e5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(55, 55, 66, 0.86) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;   
+    margin-bottom: 10px; 
+}
+
+.controls {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid grey;
+}
+
+.btn {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background: black;
+    border: none;
+    width: 250px;
+    margin: 5px;
+    font-size: 1.5rem;
+    padding: 2px;
+    border-radius: 5px;
+
+}
+
+.btn {
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    background-color: white;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+}
+  
+@media (min-width: 768px) {
+ .btn {
+      padding: 10px 30px;
+    }
+}
+
+.start-btn {
+    box-shadow: rgba(65, 110, 37, 0.921) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: green;
+    border: 1px solid  green;
+}
+
+.stop-btn {
+    box-shadow: rgba(255, 3, 3, 0.942) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    color: red;
+    border: 1px solid  red;
+}
+  
+.reset-btn {
+    box-shadow: rgba(208, 208, 209, 0.86) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border: 1px solid  #333;
+    color: #333;
+}
+
+
