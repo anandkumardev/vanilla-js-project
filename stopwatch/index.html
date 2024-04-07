@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatch-container">
+        <span class="display">00 : 00 : 00 : 00</span>
+
+        <div class="controls">
+            <i class="fa-solid fa-stop stop-btn" style="color: #e71304;" onclick="stop()" ></i> 
+            <i class="fa-solid fa-play start-btn" style="color: #0da350;"  onclick="start()"></i>
+            <i class="fa-solid fa-arrows-rotate reset-btn" style="color: #f5f5f5;" onclick="reset()"></i>
+        </div>
+
+        <button class="laps-btn" onclick="laps()">LAPS</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/767624a3b7.js" crossorigin="anonymous"></script>
+</body>
+</html>
