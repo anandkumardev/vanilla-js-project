@@ -28,6 +28,8 @@ h1 {
     color: #222;
 }
 
+/* container section  */
+
 .countdown-container {
     max-width: 1180px;
     margin-inline: auto;
@@ -36,30 +38,26 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 40px;
 }
 
+/* container left section  */
 
 .left-sec {
-    max-width: 40vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 5px;
+    gap: 4px;
 }
 
 .countdown {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    gap: 15px;
     margin-block: 25px;
 }
 
 .countdown-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     font-size: 1rem;
     gap: 10px;
@@ -68,41 +66,93 @@ h1 {
 .countdown-display {
     height: 80px;
     width: 100px;
+    font-size: 2rem;
     background: #222;
     color: whitesmoke;
     border-radius: 4px;
-    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: rgba(253, 98, 175, 0.6) 0px 2px 4px 0px, rgba(253, 98, 175, 0.6) 0px 2px 16px 0px;
 }
 
+/* container right section  */
+
 .countdown-hero {
     width: 100%;
 }
 
+/* button */
+
 a {
     text-decoration: none;
     color: #222;
-    display: inline-block;
+    border: 2px solid palevioletred;
+    border-radius: 4px;
+    padding: 12px 24px;
+    color: #222;
+    background: transparent;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
 }
 
 i {
     margin-left: 10px;
 }
 
-button {
-    border: 2px solid palevioletred;
-    border-radius: 4px;
-    padding: 20px 20px 20px 10px;
+a:hover {
+    background:#fdf2f8;
+    transition: 0.2s ease-in;
     color: #222;
-    background: transparent;
-    font-size: 1rem;
-    width: 30vw;
 }
 
-button:hover {
-    background:#fdf2f8;
-    color: #222;
+/* media queries  */
+
+@media screen and (max-width: 768px) {
+    .countdown-container {
+        flex-wrap: wrap-reverse;
+        gap: 10px;
+    }
+
+    .left-sec {
+        align-items: center;
+    }    
+}
+
+@media screen and (max-width: 365px) {
+    .countdown-container {
+        flex-wrap: wrap-reverse;
+        gap: 10px;
+    }
+
+    .countdown {
+        margin-block: 20px;
+    }
+
+    .countdown-box {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .countdown-info {
+        font-size: 0.75rem ;
+    }
+
+    .left-sec {
+        align-items: center;
+    }
+
+    .countdown-display {
+        height: 50px;
+        width: 70px;
+        font-size: 1rem;
+    }
+
+    a {
+        font-size: 0.8rem;
+    }
 }
