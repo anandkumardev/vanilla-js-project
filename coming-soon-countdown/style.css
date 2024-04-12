@@ -120,7 +120,7 @@ a:hover {
     }    
 }
 
-@media screen and (max-width: 365px) {
+@media screen and (max-width: 479px) {
     .countdown-container {
         flex-wrap: wrap-reverse;
         gap: 10px;
