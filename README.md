@@ -8,4 +8,6 @@
 | 04 | [Simple Counter](https://github.com/anandkumardev/vanilla-js/tree/main/simple-counter)                             | [Live Demo](https://vanilla-js-anandkumar14.vercel.app/simple-counter/index.html)
 | 05 | [Stopwatch](https://github.com/anandkumardev/vanilla-js/tree/main/stopwatch)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/stopwatch/index.html)
 | 06 | [Coming Soon - Countdown](https://github.com/anandkumardev/vanilla-js/tree/main/coming-soon-countdown)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/coming-soon-countdown/index.html)
+| 07 | [Countdown App](https://github.com/anandkumardev/vanilla-js/tree/main/countdown-app)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/countdown-app/index.html)
+| 08 | [Expanding Cards](https://github.com/anandkumardev/vanilla-js/tree/main/expanding-cards)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/expanding-cards/index.html)
 
