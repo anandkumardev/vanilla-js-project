@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', san-serif;
+    margin-inline: auto;
+    max-width: 1180px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #171717;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-block: 14px;
+}
+
+.accordion {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.question {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.question h4 {
+    font-weight: 500;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+
+.acc-1 {
+    background: #f0fdfa;
+    color: #115e59;
+    border: 1px solid #115e59;
+}
+
+.acc-2 {
+    background: #fef2f2;
+    color: #dc2626;
+    border: 1px solid #dc2626;
+}
+
+.acc-2  p {
+    color: #171717;
+}
+
+
+.acc-3 {
+    background: #f5f3ff;
+    color: #5b21b6;
+    border: 1px solid #5b21b6;
+}
+
+.acc-4 {
+    background: #eff6ff;
+    color: #1d4ed8;
+    border: 1px solid #1d4ed8;
+}
+
+.acc-5 {
+    background: #fff7ed;
+    color: #ea580c;
+    border: 1px solid #ea580c;
+}
+
+.acc-1 .acc-3 .acc-4 .acc-5 ,  p {
+    color: #171717;
+}
+
+.icon {
+    margin-top: 5px;
+    transition: transform 0.2s;
+}
+
+.icon.active {
+    transform: rotate(-180deg);
+}
+
+/* media query  */
+
+@media screen and (max-width: 800px) {
+    .accordion {
+        cursor: default;
+    }
+}
