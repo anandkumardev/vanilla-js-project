@@ -10,4 +10,5 @@
 | 06 | [Coming Soon - Countdown](https://github.com/anandkumardev/vanilla-js/tree/main/coming-soon-countdown)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/coming-soon-countdown/index.html)
 | 07 | [Countdown App](https://github.com/anandkumardev/vanilla-js/tree/main/countdown-app)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/countdown-app/index.html)
 | 08 | [Expanding Cards](https://github.com/anandkumardev/vanilla-js/tree/main/expanding-cards)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/expanding-cards/index.html)
+| 09 | [Accordion](https://github.com/anandkumardev/vanilla-js/tree/main/accordion)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/accordion/index.html)
 
