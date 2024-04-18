@@ -60,3 +60,11 @@ body.active {
                 inset 0 4px 4px rgba(255,255,255,1),
                 inset 0 -4px 4px rgba(255,255,255,1);
 }
+
+/* media query  */
+
+@media screen and (max-width: 800px) {
+    .accordion {
+        cursor: default;
+    }
+}
