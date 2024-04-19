@@ -12,4 +12,6 @@
 | 08 | [Expanding Cards](https://github.com/anandkumardev/vanilla-js/tree/main/expanding-cards)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/expanding-cards/index.html)
 | 09 | [Accordion](https://github.com/anandkumardev/vanilla-js/tree/main/accordion)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/accordion/index.html)
 | 10 | [Toggle Button](https://github.com/anandkumardev/vanilla-js/tree/main/toggle-button)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/toggle-button/index.html)
+| 11 | [Sound Board](https://github.com/anandkumardev/vanilla-js/tree/main/sound-board)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/sound-board/index.html)
+
 
