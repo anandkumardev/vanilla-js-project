@@ -56,6 +56,7 @@ function reset() {
     elapsedTime = 0;
     isRunning = 0;
     display.textContent = "00 : 00 : 00 : 00";
+    location.reload();
 };
 
 //laps function
