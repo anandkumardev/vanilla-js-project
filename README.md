@@ -14,5 +14,4 @@
 | 10 | [Toggle Button](https://github.com/anandkumardev/vanilla-js/tree/main/toggle-button)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/toggle-button/index.html)
 | 11 | [Sound Board](https://github.com/anandkumardev/vanilla-js/tree/main/sound-board)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/sound-board/index.html)
 | 12 | [Split Landing Page](https://github.com/anandkumardev/vanilla-js/tree/main/split-landing-page)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/split-landing-page/index.html)
-
-
+| 13 | [Responsive Navbar](https://github.com/anandkumardev/vanilla-js/tree/main/responsive-navbar)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/responsive-navbar/index.html)
