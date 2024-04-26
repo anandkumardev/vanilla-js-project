@@ -15,4 +15,4 @@
 | 11 | [Sound Board](https://github.com/anandkumardev/vanilla-js/tree/main/sound-board)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/sound-board/index.html)
 | 12 | [Split Landing Page](https://github.com/anandkumardev/vanilla-js/tree/main/split-landing-page)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/split-landing-page/index.html)
 | 13 | [Responsive Navbar](https://github.com/anandkumardev/vanilla-js/tree/main/responsive-navbar)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/responsive-navbar/index.html)
-| 14 | [Responsive Navbar 2](https://github.com/anandkumardev/vanilla-js/tree/main/responsive-navbar-2)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/responsive-navbar-2/index.html)
+| 14 | [Sticky & Responsive Navbar](https://github.com/anandkumardev/vanilla-js/tree/main/sticky-n-responsive-navbar)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/sticky-n-responsive-navbar/index.html)
