@@ -131,6 +131,7 @@ button {
     top: 0;
     padding-inline: 20px;
     transition: 0.5s ease-in-out;
+    display: none;
 }
 
 .mobile-nav.active {
@@ -192,6 +193,7 @@ button {
 
     .main-nav {
         padding: 20px 10px;
+        display: block;
     }
 
     .nav-btns, .nav-links {
