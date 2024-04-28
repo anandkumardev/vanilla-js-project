@@ -48,10 +48,8 @@ a li:hover {
     align-items: center;
 }
 
-.section {
-    background: linear-gradient(135deg, #bce7d6, #FFF5C2);
-    height: 994px;
-    padding: 30px;
+.logo {
+    z-index: 100;
 }
 
 .logo img {
@@ -75,8 +73,8 @@ nav {
     align-items: space-between;
     background-color: var(--white-color);
     padding: 20px 10px;
-    box-shadow: rgba(0, 0, 0, 0.5);
     justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -108,5 +106,108 @@ button {
     border: none;
     font-size: 1.2rem;
     display: none;
-    z-index: 1000;
+    z-index: 100;
+}
+
+#close-icon {
+    display: none;
+}
+
+#close-icon.active {
+    display: block;
+}
+
+#bar-icon.active {
+    display: none;
+}
+
+.mobile-nav {
+    flex-direction: column;
+    background: var(--white-color);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    right: -100%;
+    top: 0;
+    padding-inline: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.mobile-nav.active {
+    right: 0;
+}
+
+.mobile-nav-links {
+    margin-top: 80px;
+}
+
+.mobile-nav-links ul {
+    flex-direction: column;
+}
+
+.mobile-nav-btns {
+  flex-direction: column;
+  margin-top: 8px;
+  gap: 10px;
+  width: 100%;
+}
+
+.mobile-btns {
+    border-radius: 5px;
+    text-align: center;
+    padding-block: 8px;
+    align-items: start;
+    width: 100%;
+}
+
+.section-1 {
+    background: linear-gradient(135deg, #bce7d6, #FFF5C2);
+    height: 994px;
+    padding: 30px;
+}
+
+.section-2 {
+    background: #f4f4f4;
+    height: 588.8px;
+    padding: 30px;
+}
+
+.section-3 {
+   background: linear-gradient(135deg, #E7BCDE, #FFF5C2);
+   height: 994px;
+   padding: 30px;
+}
+
+/* media query */
+
+@media screen and (max-width: 800px) {
+
+    .logo img {
+        height: 30px;
+    }
+    
+    span{
+        font-size: 16px;
+    }
+
+    .main-nav {
+        padding: 20px 10px;
+    }
+
+    .nav-btns, .nav-links {
+        display: none;
+    }
+
+    .logo img {
+        height: 35px;
+        font-size: 14px;
+    }
+
+    a li:hover {
+        background: none;
+    }
+
+    button {
+        display: block;
+    }
 }

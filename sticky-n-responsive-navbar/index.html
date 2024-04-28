@@ -7,29 +7,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="main-nav flex container">
-            <div class="logo flex">
-                <img src="img/logo.png" alt="logo"/>
-                <span>Polymer</span>
+    <header>
+        <nav>
+            <div class="main-nav flex container">
+                <div class="logo flex">
+                    <img src="img/logo.png" alt="logo"/>
+                    <span>Polymer</span>
+                </div>
+    
+                <div class="nav-links flex">
+                    <ul class="flex">
+                    <a href="#"><li>Features</li></a>
+                    <a href="#"><li>Pricing</li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>Changelog</li></a>
+                    </ul>
+                </div>
+    
+                <div class="nav-btns flex">
+                    <a href="#" class="btns primary-btn">Login</a>
+                    <a href="#" class="btns secondary-btn">Signup</a>
+                </div>
+
+                <button id="toggle-btn">
+                    <i id="bar-icon" class="fa-sharp fa-solid fa-bars-staggered"></i>
+                    <i id="close-icon" class="fa-sharp fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </nav>
+
+        <div class="mobile-nav flex">
+            <div class="mobile-nav-links flex">
+                    <ul class="flex">
+                    <a href="#"><li>Features</li></a>
+                    <a href="#"><li>Pricing</li></a>
+                    <a href="#"><li>Blog</li></a>
+                    <a href="#"><li>Changelog</li></a>
+                    </ul>
             </div>
 
-            <div class="nav-links flex">
-                <ul class="flex">
-                <a href="#"><li>Features</li></a>
-                <a href="#"><li>Pricing</li></a>
-                <a href="#"><li>Blog</li></a>
-                <a href="#"><li>Changelog</li></a>
-                </ul>
-            </div>
-
-            <div class="nav-btns flex">
-                <a href="#" class="btns primary-btn">Login</a>
-                <a href="#" class="btns secondary-btn">Signup</a>
+            <div class="mobile-nav-btns flex">
+                <a href="#" class="mobile-btns primary-btn">Login</a>
+                <a href="#" class="mobile-btns secondary-btn">Signup</a>
             </div>
         </div>
-    </nav>
-    <div class="section"></div> 
+    </header>
+    <div class="section-1"></div> 
+    <div class="section-2"></div>
+    <div class="section-3"></div>
     <script src="https://kit.fontawesome.com/767624a3b7.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
