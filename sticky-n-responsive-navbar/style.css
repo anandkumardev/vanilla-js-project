@@ -193,7 +193,6 @@ button {
 
     .main-nav {
         padding: 20px 10px;
-        display: block;
     }
 
     .nav-btns, .nav-links {
@@ -210,6 +209,10 @@ button {
     }
 
     button {
+        display: block;
+    }
+
+    .mobile-nav {
         display: block;
     }
 }
