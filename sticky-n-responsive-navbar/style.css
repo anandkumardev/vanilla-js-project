@@ -13,7 +13,8 @@
 }
 
 body {
-    font-family:'poppins', san-serif ;
+    font-family:'poppins', san-serif;
+    overflow-x: hidden;
 }
 
 ul {
