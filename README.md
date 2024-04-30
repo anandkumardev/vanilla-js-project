@@ -16,3 +16,4 @@
 | 12 | [Split Landing Page](https://github.com/anandkumardev/vanilla-js/tree/main/split-landing-page)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/split-landing-page/index.html)
 | 13 | [Responsive Navbar](https://github.com/anandkumardev/vanilla-js/tree/main/responsive-navbar)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/responsive-navbar/index.html)
 | 14 | [Sticky & Responsive Navbar](https://github.com/anandkumardev/vanilla-js/tree/main/sticky-n-responsive-navbar)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/sticky-n-responsive-navbar/index.html)
+| 15 | [Responsive Sidebar Navigation](https://github.com/anandkumardev/vanilla-js/tree/main/responsive-sidebar-navigation)                             | [Live Demo](https://vanilla-js-anandkumar14s-projects.vercel.app/responsive-sidebar-navigation/index.html)
