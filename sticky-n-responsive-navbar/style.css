@@ -65,6 +65,7 @@ span{
 nav {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     color: var(--black-color);
+    background: white;
 }
 
 .main-nav {
@@ -144,10 +145,10 @@ button {
 }
 
 .mobile-nav-btns {
-  flex-direction: column;
-  margin-top: 8px;
-  gap: 10px;
-  width: 100%;
+    flex-direction: column;
+    margin-top: 8px;
+    gap: 10px;
+    width: 100%;
 }
 
 .mobile-btns {
@@ -155,6 +156,11 @@ button {
     text-align: center;
     padding-block: 8px;
     align-items: start;
+    width: 100%;
+}
+
+.sticky {
+    position: fixed;
     width: 100%;
 }
 
