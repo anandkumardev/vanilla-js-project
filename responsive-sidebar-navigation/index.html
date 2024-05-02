@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="main-container">
+        <nav class="sidebar">
+            <header>
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo" class="logo-img">
+                    <span>Polymer</span>
+                </div>
+                <button class="toggle-btn">
+                    <i id="icon" class="fa-solid fa-chevron-left"></i>
+                </button>
+            </header>
+            <div class="menu-bar">
+                <div class="menu">
+                    <li class="search-box">
+                            <i class='bx bx-search icon' ></i>
+                            <input type="search" placeholder="Search...">
+                    </li>
+
+                    <ul class="menu-links">
+                        <li class="nav-link">
+                            <a href="#">
+                                <i class='bx bxs-dashboard icon'></i>
+                                <span class="text nav-text">Dashboard</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script src="https://kit.fontawesome.com/767624a3b7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
