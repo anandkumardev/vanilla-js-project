@@ -1,13 +1,14 @@
-const toggleBtn = document.querySelector('.toggle-btn');
+const body = document.querySelector('body');
+const toggle = document.querySelector('.toggle');
 const sidebar = document.querySelector('.sidebar');
-const toggleIcon = document.getElementById('icon');
-const span  = document.querySelectorAll('span');
+const searchBtn = document.getElementById('.search-box');
+const modeSwitch = document.querySelectorAll('.toggle-switch');
+const modeText = document.querySelector('.mode-text')
 
-toggleBtn.addEventListener('click', ()=> {
-    sidebar.classList.toggle('active');
-    span.classList.toggle('active');
+toggle.addEventListener('click', ()=> {
+    sidebar.classList.toggle('close');
+});
 
-    //just toggle the icon className
-    const isActive = sidebar.classList.contains('active');
-    toggleIcon.classList = (isActive) ? "fa-solid fa-chevron-right" : "fa-solid fa-chevron-left";
+modeSwitch.addEventListener('click', ()=> {
+    body.classList.toggle('dark');
 });
