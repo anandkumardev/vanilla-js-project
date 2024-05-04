@@ -318,5 +318,6 @@ body.dark .switch::before {
 @media screen and (max-width: 800px) {
     .home .text {
         font-size: 18px;
+        padding-inline: 20px;
     }
 }
