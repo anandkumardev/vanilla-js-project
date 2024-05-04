@@ -7,8 +7,10 @@
 }
 
 /* utilities */
+
 :root {
     --body-color: #e4e9f7;
+    --header-text: #010101;
     --sidebar-color: #fff;
     --primary-color: #695cfe;
     --primary-color-light: #f6f5ff;
@@ -25,18 +27,22 @@
 body {
     font-family:'poppins', san-serif;
     height: 100vh;
+    overflow: hidden;
     background: var(--body-color);
     transition: var(--trans-02);
 }
 
 body.dark {
     --body-color: #18191A;
+    --header-text: #f1f1f1;
     --sidebar-color: #242526;
     --primary-color: #695cfe;
     --primary-color-light: #3a3b3c;
     --toggle-color: #fff;
     --text-color: #ccc;
 }
+
+/* sidebar  */
 
 .sidebar {
     position: fixed;
@@ -48,37 +54,19 @@ body.dark {
     padding: 20px 20px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     transition: var(--trans-03);
+    z-index: 1;
 }
 
 .sidebar.close {
     width: 100px;
 }
 
+body.dark .sidebar {
+    box-shadow: none;
+}
+
 .sidebar header {
     position: relative;
-}
-
-.text-img {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    padding: 10px;
-}
-
-.text-img .image {
-    min-width: 60px;
-    display: flex;
-    align-items: center;
-}
-
-.text-img img {
-    height: 40px;
-}
-
-.header-text {
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--text-color);
 }
 
 .sidebar .text {
@@ -94,6 +82,33 @@ body.dark {
     opacity: 0;
 }
 
+/* logo  */
+
+.text-img {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text-img .image {
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-img img {
+    height: 40px;
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--header-text);
+}
+
+/* toggle button  */
+
 .toggle {
     position: absolute;
     height: 30px;
@@ -108,11 +123,23 @@ body.dark {
     align-items: center;
     justify-content: center;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: var(--trans-03);
+}
+
+.sidebar.close .toggle {
+    transform: translateY(-50%) rotate(180deg);
+    box-shadow: none;
 }
 
 .toggle.active {
     transform: translate(180deg);
 }
+
+body.dark .toggle {
+    box-shadow: none;
+}
+
+/* menu bar  */
 
 .sidebar li  {
     height: 50px;
@@ -155,10 +182,21 @@ body.dark {
     color: var(--primary-color-light);
 }
 
+body.dark .sidebar li a:hover .icon,
+body.dark .sidebar li a:hover .text {
+    color: var(--text-color);
+}
+
+.sidebar .menu {
+    margin-top: 35px;
+}
+
+/* search box  */
 
 .sidebar .search-box {
     background: var(--primary-color-light);
     border-radius: 6px;
+    transition: var(--trans-05);
 }
 
 .search-box input {
@@ -166,16 +204,25 @@ body.dark {
     width: 100%;
     outline: none;
     border: none;
+    font-size: 16px;
+    font-weight: 500;
     background: var(--primary-color-light);
     border-radius: 6px;
+    transition: var(--trans-05);
+}
+
+.search-box input[type="text"] {
+    color: var(--text-color);
 }
 
 .sidebar .menu-bar {
-    height: calc(100% - 70px);
+    height: calc(100% - 40px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* toggle dark mode or light mode  */
 
 .menu-bar .mode {
     position: relative;
@@ -198,6 +245,14 @@ body.dark {
     opacity: 0;
 }
 
+body.dark .menu-bar .mode i.sun {
+    opacity: 1;
+}
+
+body.dark .menu-bar .mode i.moon {
+    opacity: 0;
+}
+
 .menu-bar .mode .toggle-switch {
     position: absolute;
     right: 0;
@@ -206,6 +261,8 @@ body.dark {
     justify-content: center;
     height: 100%;
     min-width: 60px;
+    cursor: pointer;
+    transition: var(--trans-05);
 }
 
 .toggle-switch .switch {
@@ -217,7 +274,7 @@ body.dark {
 }
 
 .switch::before {
-    content: ' ';
+    content: '';
     position: absolute;
     height: 15px;
     width: 15px;
@@ -231,4 +288,35 @@ body.dark {
 
 body.dark .switch::before {
     left: 24px;
+}
+
+/* home section  */
+
+.home {
+    background: var(--body-color);
+    position: relative;
+    height: 100vh;
+    left: 275px;
+    width: calc(100% - 275px);
+    transition: var(--trans-05);
+}
+
+.home .text {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 40px 50px;
+}
+
+.sidebar.close ~ .home {
+    left: 125px;
+    width: calc(100% - 125px);
+}
+
+/* media query  */
+
+@media screen and (max-width: 800px) {
+    .home .text {
+        font-size: 18px;
+    }
 }
