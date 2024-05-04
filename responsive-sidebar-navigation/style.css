@@ -305,7 +305,7 @@ body.dark .switch::before {
     font-size: 25px;
     font-weight: 500;
     color: var(--text-color);
-    padding: 40px 50px;
+    padding: 25px 50px;
 }
 
 .sidebar.close ~ .home {
