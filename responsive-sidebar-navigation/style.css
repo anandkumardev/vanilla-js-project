@@ -27,7 +27,6 @@
 body {
     font-family:'poppins', san-serif;
     height: 100vh;
-    /* overflow: hidden; */
     background: var(--body-color);
     transition: var(--trans-02);
 }
@@ -129,10 +128,6 @@ body.dark .sidebar {
 .sidebar.close .toggle {
     transform: translateY(-50%) rotate(180deg);
     box-shadow: none;
-}
-
-.toggle.active {
-    transform: translate(180deg);
 }
 
 body.dark .toggle {
