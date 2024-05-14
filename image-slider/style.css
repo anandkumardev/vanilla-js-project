@@ -16,7 +16,6 @@ body {
     position: relative;
     margin: 20px;
     overflow: hidden;
-    font-size: 2rem;
 }
 
 .slide {
@@ -27,8 +26,6 @@ body {
     position: relative;
     overflow: hidden;
     display: none;
-    background-repeat: repeat;
-    background-size: cover;
 }
 
 .slide.displaySlide {
@@ -46,6 +43,7 @@ button {
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
+    cursor: pointer;
 }
 
 .prev {
