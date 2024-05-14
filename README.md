@@ -18,3 +18,4 @@
 | 14 | [Sticky & Responsive Navbar](https://github.com/anandkumardev/vanilla-js/tree/main/sticky-n-responsive-navbar)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/sticky-n-responsive-navbar/index.html)
 | 15 | [Responsive Sidebar Navigation](https://github.com/anandkumardev/vanilla-js/tree/main/responsive-sidebar-navigation)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/responsive-sidebar-navigation/index.html)
 | 16 | [Dropdown Menu Sidebar](https://github.com/anandkumardev/vanilla-js/tree/main/dropdown-menu-sidebar)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/dropdown-menu-sidebar/index.html)
+| 17 | [Image Slider](https://github.com/anandkumardev/vanilla-js/tree/main/image-slider)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/image-slider/index.html)
