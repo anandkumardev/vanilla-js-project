@@ -26,6 +26,7 @@ body {
     position: relative;
     overflow: hidden;
     display: none;
+    transition: all 0.2 ease;
 }
 
 .slide.displaySlide {
