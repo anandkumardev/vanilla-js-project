@@ -23,6 +23,7 @@ body {
     white-space: nowrap;
     overflow: hidden;
     cursor: pointer;
+    scroll-behavior: smooth;
 }
 
 .carousel img {
