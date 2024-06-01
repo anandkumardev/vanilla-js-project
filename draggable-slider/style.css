@@ -26,6 +26,10 @@ body {
     scroll-behavior: smooth;
 }
 
+.carousel.dragging {
+    scroll-behavior: auto;
+}
+
 .carousel img {
     height: 340px;
     object-fit: cover;

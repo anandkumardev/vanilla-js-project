@@ -20,15 +20,16 @@ const dragStart = (e) => {
 const dragging = (e) => {
     if(!isDragStart) return;
     e.preventDefault();
+    carousel.classList.add("dragging");
     let positionDiff = e.pageX - prevPageX;
     carousel.scrollLeft = prevScrollLeft - positionDiff;
 }
 
 const dragStop = () => {
+    carousel.classList.remove("dragging");
     isDragStart = false;
 }
 
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 carousel.addEventListener("mouseup", dragStop);
-
