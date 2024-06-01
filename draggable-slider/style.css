@@ -27,7 +27,12 @@ body {
 }
 
 .carousel.dragging {
+    cursor: grab;
     scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
 }
 
 .carousel img {
@@ -59,11 +64,12 @@ body {
 }
 
 .wrapper i:first-child {
-    left: -22px;
+    left: -23px;
+    display: none;
 }
 
 .wrapper i:last-child {
-    right: -22px;
+    right: -23px;
 }
 
 /* media queries  */
