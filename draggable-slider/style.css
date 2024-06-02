@@ -41,7 +41,6 @@ body {
     user-select: none;
     margin-left: 14px;
     width: calc(100% / 3);
-    border-radius: 15px;
 }
 
 .carousel img:first-child {
@@ -49,10 +48,10 @@ body {
 }
 
 .wrapper i {
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
-    font-size: 1rem;
+    height: 44px;
+    width: 44px;
+    line-height: 44px;
+    font-size: 1.15rem;
     text-align: center;
     background-color: white;
     border-radius: 50%;
@@ -63,13 +62,21 @@ body {
     transition: transform 0.1s linear;
 }
 
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.wrapper i:hover{
+    background: #f2f2f2;
+}
+
 .wrapper i:first-child {
-    left: -23px;
+    left: -22px;
     display: none;
 }
 
 .wrapper i:last-child {
-    right: -23px;
+    right: -22px;
 }
 
 /* media queries  */
