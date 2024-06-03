@@ -44,7 +44,7 @@ const dragStart = (e) => {
 }
 
 const dragging = (e) => {
-    // scrolling images/carousel to left according to mouse pointer
+    // scrolling images/carousel to left according to mouse pointer.
     if(!isDragStart) return;
     e.preventDefault();
     isDragging = true;
