@@ -20,3 +20,4 @@
 | 16 | [Dropdown Menu Sidebar](https://github.com/anandkumardev/vanilla-js/tree/main/dropdown-menu-sidebar)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/dropdown-menu-sidebar/index.html)
 | 17 | [Image Slider](https://github.com/anandkumardev/vanilla-js/tree/main/image-slider)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/image-slider/index.html)
 | 18 | [Draggable Slider](https://github.com/anandkumardev/vanilla-js/tree/main/draggable-slider)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/draggable-slider/index.html)
+| 19 | [Carousel Cards](https://github.com/anandkumardev/vanilla-js/tree/main/carousel-cards)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/carousel-cards/index.html)
