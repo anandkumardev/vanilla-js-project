@@ -79,7 +79,7 @@ body {
     right: -22px;
 }
 
-/* === media queries === */
+/* media queries */
 @media screen and (max-width: 900px) {
     .carousel img {
         width: calc(100% / 2);
