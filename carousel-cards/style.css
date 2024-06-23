@@ -37,7 +37,7 @@ body {
     width: 340px;
     height: 340px;
     border: 1px solid grey;
-    border-radius: 24px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
