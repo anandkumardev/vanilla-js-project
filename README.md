@@ -3,7 +3,7 @@
 |  #  | Project                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | 01  | [Digital Clock](https://github.com/anandkumardev/vanilla-js/tree/main/digital-clock)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js-project/digital-clock/index.html)
-| 02  | [Advanced Digital Clock](https://github.com/anandkumardev/vanilla-js/tree/main/advanced-digital-clock)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js/advanced-digital-clock/index.html)
+| 02  | [Advanced Digital Clock](https://github.com/anandkumardev/vanilla-js/tree/main/advanced-digital-clock)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js-project/advanced-digital-clock/index.html)
 | 03 | [Analog Clock](https://github.com/anandkumardev/vanilla-js/tree/main/analog-clock)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js-project/analog-clock/index.html)
 | 04 | [Simple Counter](https://github.com/anandkumardev/vanilla-js/tree/main/simple-counter)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js-project/simple-counter/index.html)
 | 05 | [Stopwatch](https://github.com/anandkumardev/vanilla-js/tree/main/stopwatch)                             | [Live Demo](https://anandkumardev.github.io/vanilla-js-project/stopwatch/index.html)
